@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monkey Chooser</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            text-align: center;
+        }
+        #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
+            height: 300px;
+            width: 300px;
+            border: 0;
+        }
+        #pics {
+            width: 900px;
+            height: 1350px;
+            border: solid 1px black;
+            font-size: 0;
+            margin: auto;
+        }
+        #row2, #row4, #row6 {
+            position: relative;
+            height: 300px;
+        }
+
+        #row1, #row3, #row5{
+            height: 150px;
+        }
+
+        #img1, #img2, #img3, #img4, #img5, #img6 ,#img7, #img8, #img9 {
+            left: 0;
+            bottom: 0;
+        }
+
+        #row1 {
+            width: 900px;
+        }
+
+        #extra1, #extra4, #extra7 {
+            width: 150px;
+            margin-left: 75px;
+            float: left;
+        }
+
+        #extra2, #extra5, #extra8 {
+            width: 150px;
+            margin-left: 375px;
+            float: left;
+        }
+
+        #extra3, #extra6, #extra9 {
+            width: 150px;
+            margin-left: 675px;
+            float: left;
+        }
+
+        #img2, #img4, #img8 {
+            left: 300px;
+        }
+
+        #img3, #img6, #img9 {
+            left: 600px;
+        }
+    </style>
+</head>
+<body>
+<h1>Monkey Chooser</h1>
+<div id="pics">
+    <div id="row1">
+        <img src="" id="extra1"/>
+        <img src="" id="extra2"/>
+        <img src="" id="extra3"/>
+    </div>
+    <div id="row2">
+    <img id="img1" src="img/img1.jpg"/>
+    <img id="img2" src="img/img2.jpg"/>
+    <img id="img3" src="img/img3.jpg"/>
+    </div>
+    <div id="row3">
+        <img src="" id="extra4"/>
+        <img src="" id="extra5"/>
+        <img src="" id="extra6"/>
+    </div>
+    <div id="row4">
+    <img id="img4" src="img/img4.jpg"/>
+    <img id="img5" src="img/img5.jpg"/>
+    <img id="img6" src="img/img6.jpg"/>
+    </div>
+    <div id="row5">
+        <img src="" id="extra7"/>
+        <img src="" id="extra8"/>
+        <img src="" id="extra9"/>
+    </div>
+    <div id="row6">
+    <img id="img7" src="img/img7.jpg" />
+    <img id="img8" src="img/img8.jpg"/>
+    <img id="img9" src="img/img9.jpg"/>
+    </div>
+</div>
+<script src="opdracht5.js"></script>
+</body>
+</html>
