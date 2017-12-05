@@ -38,7 +38,7 @@ function getSaiyan2() {
     teller++;
     console.log(teller);
 
-    if (teller > pics.length) {
+    if (teller > pics2.length) {
         teller = 1;
     }
     return teller;
@@ -48,7 +48,7 @@ function getSaiyan3() {
     teller++;
     console.log(teller);
 
-    if (teller > pics.length) {
+    if (teller > pics3.length) {
         teller = 1;
     }
     return teller;

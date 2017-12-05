@@ -8,119 +8,55 @@ img7.addEventListener("click", addImage7);
 img8.addEventListener("click", addImage8);
 img9.addEventListener("click", addImage9);
 
-function addImage1() {
-    document.getElementById("extra1").src="img/heart.png";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
+function clearImages() {
+    for (var i = 1; i < 10; i++) {
+        document.getElementById("extra" + i).src = "";
+    }
+}
 
+function addImage1() {
+    clearImages();
+    document.getElementById("extra1").src = "img/heart.png";
 }
 
 function addImage2() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="img/heart.png";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra2").src = "img/heart.png";
 }
 
 function addImage3() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="img/heart.png";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra3").src = "img/heart.png"
 }
 
 function addImage4() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="img/heart.png";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra4").src = "img/heart.png";
 }
 
 function addImage5() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="img/heart.png";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra5").src = "img/heart.png";
 }
 
 function addImage6() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="img/heart.png";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra6").src = "img/heart.png";
 }
 
 function addImage7() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="img/heart.png";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra7").src = "img/heart.png";
 }
 
 function addImage8() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="img/heart.png";
-    document.getElementById("extra9").src="";
-
+    clearImages();
+    document.getElementById("extra8").src = "img/heart.png";
 }
 
 function addImage9() {
-    document.getElementById("extra1").src="";
-    document.getElementById("extra2").src="";
-    document.getElementById("extra3").src="";
-    document.getElementById("extra4").src="";
-    document.getElementById("extra5").src="";
-    document.getElementById("extra6").src="";
-    document.getElementById("extra7").src="";
-    document.getElementById("extra8").src="";
-    document.getElementById("extra9").src="img/heart.png";
-
+    clearImages();
+    document.getElementById("extra9").src = "img/heart.png";
 }
+
+
