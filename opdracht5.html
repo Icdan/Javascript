@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <title>Monkey Chooser</title>
     <style>
-        html {
-            margin: 0;
-            padding: 0;
-        }
         body {
+            font-family: 'Copse', serif;
             text-align: center;
         }
-        #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
-            height: 300px;
+        .classimg {
+            height: 450px;
             width: 300px;
-            border: 0;
-            left: 0;
-            bottom: 0;
+            float: left;
+            box-sizing: border-box;
+            border: solid 1px black;
+        }
+        .extra {
+            width: 300px;
+            height: 150px;
+
         }
         #pics {
             width: 900px;
@@ -25,78 +27,40 @@
             font-size: 0;
             margin: auto;
         }
-        #row2, #row4, #row6 {
-            position: relative;
-            height: 300px;
-        }
-
-        #row1, #row3, #row5{
-            height: 150px;
-        }
-
-        #row1 {
-            width: 900px;
-        }
-
-        #extra1, #extra4, #extra7 {
-            width: 150px;
-            margin-left: 75px;
-            float: left;
-        }
-
-        #extra2, #extra5, #extra8 {
-            width: 150px;
-            margin-left: 375px;
-            float: left;
-        }
-
-        #extra3, #extra6, #extra9 {
-            width: 150px;
-            margin-left: 675px;
-            float: left;
-        }
-
-        #img2, #img4, #img8 {
-            left: 300px;
-        }
-
-        #img3, #img6, #img9 {
-            left: 600px;
-        }
     </style>
 </head>
 <body>
 <h1>Monkey Chooser</h1>
 <div id="pics">
     <div id="row1">
-        <img class="extra" src="" id="extra1"/>
-        <img class="extra" src="" id="extra2"/>
-        <img class="extra" src="" id="extra3"/>
+        <img class="extra" src="" />
+        <img class="extra" src="" />
+        <img class="extra" src="" />
     </div>
     <div id="row2">
-    <img class="classimg" id="img1" src="img/img1.jpg"/>
-    <img class="classimg" id="img2" src="img/img2.jpg"/>
-    <img class="classimg" id="img3" src="img/img3.jpg"/>
+    <img class="classimg"/>
+    <img class="classimg"/>
+    <img class="classimg"/>
     </div>
     <div id="row3">
-        <img class="extra" src="" id="extra4"/>
-        <img class="extra" src="" id="extra5"/>
-        <img class="extra" src="" id="extra6"/>
+        <img class="extra" src="" />
+        <img class="extra" src=""/>
+        <img class="extra" src="" />
     </div>
     <div id="row4">
-    <img class="classimg" id="img4" src="img/img4.jpg"/>
-    <img class="classimg" id="img5" src="img/img5.jpg"/>
-    <img class="classimg" id="img6" src="img/img6.jpg"/>
+    <img class="classimg"/>
+    <img class="classimg"/>
+    <img class="classimg"/>
     </div>
     <div id="row5">
-        <img class="extra" src="" id="extra7"/>
-        <img class="extra" src="" id="extra8"/>
-        <img class="extra" src="" id="extra9"/>
+        <img class="extra" src="" />
+        <img class="extra" src="" />
+        <img class="extra" src="" />
     </div>
     <div id="row6">
-    <img class="classimg" id="img7" src="img/img7.jpg" />
-    <img class="classimg" id="img8" src="img/img8.jpg"/>
-    <img class="classimg" id="img9" src="img/img9.jpg"/>
+    <img class="classimg" />
+    <img class="classimg"/>
+    <img class="classimg"/>
     </div>
 </div>
 <script src="opdracht5.js"></script>
