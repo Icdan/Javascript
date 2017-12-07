@@ -33,10 +33,10 @@ function makeFav(id ) {
     notfav = document.getElementsByClassName("favoriet");
 
     for (var i = 0; i < notfav.length; i++){
-        notfav[i].style.backgroundimage = "none";
+        notfav[i].style.backgroundImage = "none";
     }
 
     favoriet = document.getElementById("favoriet_" + id);
-    favoriet.style.background = "url('img/heart.png')";
+    favoriet.style.backgroundImage = "url('img/heart.png')";
 }
 
