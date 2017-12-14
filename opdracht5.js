@@ -4,7 +4,6 @@ createSaiyanPics();
 
 function createPicsHolders() {
     for (var i = 0; i < 9; i++) {
-
         pictureHolder = document.createElement("div");
         pictureHolder.className = "picture-holder";
         pictureHolder.id = "picture-holder-" + i;
@@ -18,18 +17,18 @@ function createSaiyanPics() {
         favoriet = document.createElement("div");
         favoriet.className = "favoriet";
         favoriet.id = "favoriet_" + (i + 1);
-        saiyanPicture = document.createElement("img");
-        saiyanPicture.src = "img/img" + (i + 1) + ".jpg";
-        saiyanPicture.id = (i + 1);
-        saiyanPicture.addEventListener("click", function() {
+        kamehameha = document.createElement("img");
+        kamehameha.src = "img2/img" + (i + 1) + ".jpg";
+        kamehameha.id = (i + 1);
+        kamehameha.addEventListener("click", function() {
             makeFav(this.id);
         });
         pictureHolders[i].appendChild(favoriet);
-        pictureHolders[i].appendChild(saiyanPicture);
+        pictureHolders[i].appendChild(kamehameha);
 
     }
 }
-function makeFav(id ) {
+function makeFav(id) {
     notfav = document.getElementsByClassName("favoriet");
 
     for (var i = 0; i < notfav.length; i++){

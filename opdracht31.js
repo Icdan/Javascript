@@ -1,16 +1,16 @@
 var plaatjes = document.getElementsByTagName("img");
 var random = 0;
-var randomNumbers = [];
+var randomPictures = [];
 
-while (randomNumbers.length < 9) {
+while (randomPictures.length < 9) {
     random = Math.floor(Math.random() * 9) + 1;
-    if (randomNumbers.lastIndexOf(random) == -1) {
-        randomNumbers.push(random);
+    if (randomPictures.lastIndexOf(random) == -1) {
+        randomPictures.push(random);
     }
 
 }
 random = 0;
 for (var plaatje in plaatjes) {
-    plaatjes[plaatje].src = "img/img" + randomNumbers[random] + ".jpg";
+    plaatjes[plaatje].src = "img2/img" + randomPictures[random] + ".jpg";
     random++;
 }
