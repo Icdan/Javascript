@@ -33,7 +33,7 @@ ctx2.font = "35px Impact";
 ctx2.fillStyle = "#d42426";
 ctx2.textAlign = "center";
 ctx2.fillText("Merry christmas", canvas2.width/2, canvas2.height/2);
-ctx2.fillText("and a happy 2018!", canvas2.width/2, (canvas2.height/2) + 60);
+ctx2.fillText("and a happy 2019!", canvas2.width/2, (canvas2.height/2) + 60);
 
 
 // Second image
